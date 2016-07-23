@@ -1,0 +1,76 @@
+body {
+    background-image: radial-gradient(#040e52, #1e202d);
+}
+
+#main {
+    margin-top: 50px;
+}
+
+#aboutme {
+    text-align: center;
+}
+
+#colortag {
+    color: #5d6dd1;
+}
+
+#centerborder {
+    border-left: 3px solid #000000;
+}
+
+#content {
+    padding-bottom: 80px;
+    background-color: #ffffff;
+    font-size: 1.5em;
+}
+
+#icon {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#gallery {
+    text-align: center;
+    background-image: radial-gradient(#ffffff, #1e202d);
+    padding-bottom: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-shadow: #000000 3px 3px 3px;
+}
+
+#galleryname {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #000000;
+}
+
+#name{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ffffff;
+    text-shadow: #000000 3px 3px 3px;
+    text-align: center;
+    background-image: radial-gradient(#ffffff, #1e202d);
+    border-radius: 10px;
+}
+
+#graphic{
+    padding-top: 15px;
+}
+footer { 
+    text-align: center;
+    font-size: 1.1em;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 15px;
+}
+
+@media only screen and (min-width:64em) {
+    #content {
+        margin-left: 50px;
+    }
+}

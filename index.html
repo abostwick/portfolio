@@ -20,8 +20,8 @@
     <![endif]-->
 </head>
 
-<body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+<body data-spy="scroll" data-target="#navbar">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" id="navbar">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -36,8 +36,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#sgallery">Gallery</a></li>
+                    <li><a href="#saboutme">About</a></li>
                     <li><a href="http://paletton.com/#uid=13U0u0kQle+443V1A++c38gknIx">Palette</a>
                     </li>
                 </ul>
@@ -61,36 +61,41 @@
                 </a>
             </div>
         </div>
-
+        
         <div class="row">
              <div class="col-xs-12 col-sm-4 col-md-push-8 col-md-4" id="gallery">
+                 <section id="sgallery">
                 <h3>Projects Gallery</h3>
                 <a href="https://abostwick.github.io/fan-page/"><img src="images/fan-page(157x300).png" class="img-responsive center-block" alt="fan-page link"></a><h4 id="galleryname">Overwatch Fan Page</h4><br>
                 <a href="https://abostwick.github.io/ptCaseStudy/"><img src="images/ptCaseStudy(155x(300).png" class="img-responsive center-block" alt="Pacific Trails Case Study"></a><h4 id="galleryname">Pacific Trails Case Study</h4><br>
                 <a href="https://abostwick.github.io/veggies-bootstrap/"><img src="images/Veggies(155x300).png" class="img-responsive center-block" alt="Ms. B's Veggies"></a><h4>Ms. B's Veggies Bootstrap</h4>
+                 </section>
             </div>
             
             <div class="col-xs-12 col-sm-8 col-md-pull-4 col-md-7" id="content">
                 <h2 id="aboutme">About Me</h2>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6">
+                        <section id="saboutme">
                         <h2 id="colortag">Intro</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam efficitur eleifend lacus rutrum pulvinar. Nunc consequat sem nunc, ut tristique neque ornare dapibus. Ut id arcu condimentum, semper tortor aliquet, luctus ipsum. Mauris magna metus, pellentesque sed dui at, venenatis sollicitudin nulla. Donec tincidunt nulla eros, in dignissim dui auctor ac. Quisque fringilla iaculis faucibus. Mauris vel sem non felis tempus vulputate eget in nunc. Quisque et lorem id felis consectetur volutpat. Cras laoreet quam eget imperdiet fermentum. Donec rhoncus dictum vehicula.</p>
+                            <p>Hello everyone, my name is Andrew bostwick, and I am an IT student who is interested in video games (no surprise there),programming languages, computer hardware, and html. I am currently working towards becoming an Applications Software developer as a career choice, and am taking all kinds of neat and interesting courses like html 5, which has taught me quite a lot on how to build my own website (NEAT!). I have had quite a bit of fun tinkering around with this website, and I'm glad I got the chance to take the course that taught me so much on making my own websites, which is information I will use in my spare time to make fun websites for myself (like my very own website that holds my resume to impress people with).</p>
                         <h2></h2>
+                        </section>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6" id="centerborder">
                         <h2 id="colortag">Technical Skills</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam efficitur eleifend lacus rutrum pulvinar. Nunc consequat sem nunc, ut tristique neque ornare dapibus. Ut id arcu condimentum, semper tortor aliquet, luctus ipsum. Mauris magna metus, pellentesque sed dui at, venenatis sollicitudin nulla.</p>
+                            <p>My technical skills include working with html 5, css3 and bootsrap. I have also worked on building computers and know the layout and components of desktops. I have also programmed in python before, and am currently interested in learning C++ and studying applications software development tools.<p>
                         <h2 id="colortag">Education</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam efficitur eleifend lacus rutrum pulvinar. Nunc consequat sem nunc, ut tristique neque ornare dapibus. Ut id arcu condimentum, semper tortor aliquet, luctus ipsum. Mauris magna metus, pellentesque sed dui at, venenatis sollicitudin nulla.</p>
+                            <p>So far I have taken a course in HTML, Fundamental Programming, and Informations Systems. I have also taken a course in Psychology and a course in Logic, which was a really fun and easy course for me. Ever since I took that class, I've noticed a lot more when it comes to information and conversations being worded in certain ways to have a completely different logical meaning.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     <footer>
         <div class="container">
             Copyright &copy; Andrew Bostwick<br>
+            <a href="http://paletton.com/#uid=13U0u0kQle+443V1A++c38gknIx">Color Palette Used</a>
         </div>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

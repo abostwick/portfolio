@@ -69,8 +69,37 @@ footer {
     padding: 5px;
 }
 
-@media only screen and (min-width:64em) {
+nav {
+    display: block;
+}
+
+@media only screen and (min-width:62em) {
     #content {
         margin-left: 50px;
     }
+    #navbar {
+        display: none;
+    }
+    #main {
+        margin-top: 0px;
+    }
 }
+
+@media only screen and (min-width:48em) {
+    #navbar {
+        display: none;
+    }
+    #main {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width:48em) {
+    #gallery {
+        padding-top: 50px;
+    }
+    #content {
+        padding-top: 50px;
+    }
+}
+
